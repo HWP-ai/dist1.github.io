@@ -54,6 +54,10 @@ a{
     color: #154b33;
 }
 
+i{
+	font-style: italic;
+}
+
 h1{
     font-size: 24px;
     line-height: 40px;
@@ -138,8 +142,16 @@ h1{
 }
 
 .card{
-    height: 220px;
+    min-height: 220px;
     margin-bottom: 30px;    
+}
+
+.card ul{
+	margin-top: 30px;
+	padding-left: 40px;
+	line-height: 60px;
+	font-size: 14px;
+	list-style-type: disc;
 }
 
 .em h2{
